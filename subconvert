@@ -5,5 +5,5 @@ do
     recode cp1250..utf8 "$file"
 done
 
-sufix=("hr")
+suffix=("hr")
 for f in *.srt; do mv "$f" "${f%.srt}".$sufix.srt; done
